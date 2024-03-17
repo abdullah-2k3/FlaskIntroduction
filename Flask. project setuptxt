@@ -1,0 +1,34 @@
+We will be woring in Windows and using the VSCode IDE
+
+Install python3
+
+Create a project folder eg. FlaskIntroduction
+
+Open VSCode IDE
+
+Hit Ctrl ~ to open a terminal
+
+Install virtualenv from terminal
+	pip install virtualenv
+
+Type virtualenv env at the terminal
+	A folder 'env' will be created in your project
+
+Activate the virtual environment
+	env\Scripts\activate.bat (be wary of backslashes) (btw .bat is optional)
+	The command prompt will be prefixed with (env)
+
+NOTE: You can deactivate the environment by typing:
+	env\Scripts\deactivate.bat
+
+PROCEED TO INSTALL REQUIREMENTS
+
+Install Flask
+	pip install flask flask-sqlalchemy
+
+Create the simplest of all app 'app.py'
+
+From the terminal run the app:
+	python app.py
+	An app server will start running at http://127.0.0.1:5000
+	Hold down Ctrl and click on the link, a web page will be loaded in browser
